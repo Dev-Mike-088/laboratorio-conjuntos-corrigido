@@ -1,0 +1,71 @@
+java Parte1Conjuntos.java
+
+=== PARTE 1 - TEORIA DOS CONJUNTOS ===
+Quantos elementos terá o conjunto A? 2
+Digite o 1º elemento de A: 1
+Digite o 2º elemento de A: 2
+A = {1, 2}
+Quantos elementos terá o conjunto B? 3
+Digite o 1º elemento de B: 1
+Digite o 2º elemento de B: 2
+Digite o 3º elemento de B: 3
+B = {1, 2, 3}
+
+--- MENU ---
+1  - União (A ∪ B)
+2  - Interseção (A ∩ B)
+3  - Diferença (A - B)
+4  - Diferença (B - A)
+5  - Diferença simétrica (A Δ B)
+6  - Verificar pertinência (x ∈ A, x ∈ B)
+7  - Verificar inclusão entre A e B (⊆ e ⊂)
+8  - Verificar inclusão de um conjunto X em A (X ⊆ A, X ⊂ A)
+9  - Mostrar cardinalidade (|A| e |B|)
+10 - Informar/alterar o universo U
+11 - Calcular complemento de A (e de B) em relação a U
+12 - Mostrar os conjuntos
+0  - Sair
+Escolha uma opção: 7
+A ⊆ B ? = Verdadeiro
+   Manual: Verdadeiro | Nativa: Verdadeiro | Confere: SIM
+A ⊂ B ? = Verdadeiro
+   Manual: Verdadeiro | Nativa: Verdadeiro | Confere: SIM
+B ⊆ A ? = Falso
+   Manual: Falso | Nativa: Falso | Confere: SIM
+B ⊂ A ? = Falso
+   Manual: Falso | Nativa: Falso | Confere: SIM
+
+--- MENU ---
+1  - União (A ∪ B)
+2  - Interseção (A ∩ B)
+3  - Diferença (A - B)
+4  - Diferença (B - A)
+5  - Diferença simétrica (A Δ B)
+6  - Verificar pertinência (x ∈ A, x ∈ B)
+7  - Verificar inclusão entre A e B (⊆ e ⊂)
+8  - Verificar inclusão de um conjunto X em A (X ⊆ A, X ⊂ A)
+9  - Mostrar cardinalidade (|A| e |B|)
+10 - Informar/alterar o universo U
+11 - Calcular complemento de A (e de B) em relação a U
+12 - Mostrar os conjuntos
+0  - Sair
+Escolha uma opção: 4
+B - A = {3}
+   Manual: {3} | Nativa: {3} | Confere: SIM
+
+--- MENU ---
+1  - União (A ∪ B)
+2  - Interseção (A ∩ B)
+3  - Diferença (A - B)
+4  - Diferença (B - A)
+5  - Diferença simétrica (A Δ B)
+6  - Verificar pertinência (x ∈ A, x ∈ B)
+7  - Verificar inclusão entre A e B (⊆ e ⊂)
+8  - Verificar inclusão de um conjunto X em A (X ⊆ A, X ⊂ A)
+9  - Mostrar cardinalidade (|A| e |B|)
+10 - Informar/alterar o universo U
+11 - Calcular complemento de A (e de B) em relação a U
+12 - Mostrar os conjuntos
+0  - Sair
+Escolha uma opção: 0
+Programa encerrado.

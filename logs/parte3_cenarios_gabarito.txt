@@ -1,0 +1,61 @@
+java Parte3ControleAcesso.java
+
+=== PARTE 3 - CONTROLE DE ACESSO POR PERFIS ===
+
+--- MENU ---
+1  - Criar perfil
+2  - Adicionar permissão a um perfil
+3  - Remover permissão de um perfil
+4  - Mostrar permissões de um perfil
+5  - Verificar se um perfil possui uma permissão (x ∈ perfil)
+6  - Verificar subconjunto entre dois perfis (A ⊆ B)
+7  - União de perfis (P1 ∪ P2 ∪ ...)
+8  - Verificar permissão de um usuário com vários perfis (x ∈ união)
+9  - Mostrar todos os perfis
+10 - Mostrar quem possui uma permissão
+11 - Carregar os perfis do gabarito (leitor, editor, admin, financeiro)
+12 - Executar os cenários do gabarito (Esperado x Obtido)
+0  - Sair
+Escolha uma opção: 12
+
+Perfis usados nos cenários:
+  admin = {editar, excluir, gerir_usuarios, ler}
+  editor = {editar, ler}
+  financeiro = {ver_relatorios}
+  leitor = {ler}
+
+--- CENÁRIO 1: leitor + editor ---
+À mão: {ler} ∪ {editar, ler} = {editar, ler}
+leitor ∪ editor
+   Esperado: {editar, ler} | Obtido: {editar, ler} | Confere: SIM
+
+--- CENÁRIO 2: editor + financeiro, esse usuário pode excluir? ---
+À mão: {editar, ler} ∪ {ver_relatorios} = {editar, ler, ver_relatorios}; excluir ∉ união, logo NÃO
+editor ∪ financeiro
+   Esperado: {editar, ler, ver_relatorios} | Obtido: {editar, ler, ver_relatorios} | Confere: SIM
+excluir ∈ (editor ∪ financeiro) ?
+   Esperado: Falso | Obtido: Falso | Confere: SIM
+
+--- CENÁRIO 3: subconjuntos em relação a admin ---
+À mão: {editar, ler} ⊆ {editar, excluir, gerir_usuarios, ler} é verdadeiro; {ver_relatorios} ⊆ admin é falso (ver_relatorios ∉ admin)
+editor ⊆ admin ?
+   Esperado: Verdadeiro | Obtido: Verdadeiro | Confere: SIM
+financeiro ⊆ admin ?
+   Esperado: Falso | Obtido: Falso | Confere: SIM
+
+--- MENU ---
+1  - Criar perfil
+2  - Adicionar permissão a um perfil
+3  - Remover permissão de um perfil
+4  - Mostrar permissões de um perfil
+5  - Verificar se um perfil possui uma permissão (x ∈ perfil)
+6  - Verificar subconjunto entre dois perfis (A ⊆ B)
+7  - União de perfis (P1 ∪ P2 ∪ ...)
+8  - Verificar permissão de um usuário com vários perfis (x ∈ união)
+9  - Mostrar todos os perfis
+10 - Mostrar quem possui uma permissão
+11 - Carregar os perfis do gabarito (leitor, editor, admin, financeiro)
+12 - Executar os cenários do gabarito (Esperado x Obtido)
+0  - Sair
+Escolha uma opção: 0
+Programa encerrado.
