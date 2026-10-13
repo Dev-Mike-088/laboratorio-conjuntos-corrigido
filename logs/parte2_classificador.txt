@@ -1,0 +1,265 @@
+java Parte2ConjuntosNumericos.java
+
+=== PARTE 2 - CLASSIFICADOR DE CONJUNTOS NUMÉRICOS ===
+Convenção adotada: ℕ = {0, 1, 2, 3, ...} (o zero pertence a ℕ).
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 1                                 
+Digite o número inteiro: -3
+
+Entrada: -3
+Tipo: número inteiro
+Justificativa: Todo inteiro n pode ser escrito como n/1. O valor é o inteiro -3 (negativo): pertence a ℤ, ℚ e ℝ, mas não a ℕ; também não é irracional.
+Pertence a: ℤ, ℚ, ℝ
+Não pertence a: ℕ, 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 1
+Digite o número inteiro: 7
+
+Entrada: 7
+Tipo: número inteiro
+Justificativa: Todo inteiro n pode ser escrito como n/1. O valor é o inteiro 7 (positivo): pertence a ℕ, ℤ, ℚ e ℝ, e não é irracional.
+Pertence a: ℕ, ℤ, ℚ, ℝ
+Não pertence a: 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 1
+Digite o número inteiro: 0
+
+Entrada: 0
+Tipo: número inteiro
+Justificativa: Todo inteiro n pode ser escrito como n/1. O valor é 0: pertence a ℕ (convenção desta atividade: ℕ inclui o zero), ℤ, ℚ e ℝ, e não é irracional.
+Pertence a: ℕ, ℤ, ℚ, ℝ
+Não pertence a: 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 2
+Digite a fração no formato a/b (ex.: 3/4): 3/4
+
+Entrada: 3/4
+Tipo: fração
+Justificativa: Razão de dois inteiros com denominador diferente de zero é um número racional. A fração já está na forma irredutível. O valor 3/4 não é inteiro (fração irredutível com denominador diferente de 1): pertence a ℚ e ℝ, mas não a ℕ, ℤ nem a 𝕀 (todo racional deixa de ser irracional).
+Pertence a: ℚ, ℝ
+Não pertence a: ℕ, ℤ, 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 2
+Digite a fração no formato a/b (ex.: 3/4): -5/2
+
+Entrada: -5/2
+Tipo: fração
+Justificativa: Razão de dois inteiros com denominador diferente de zero é um número racional. A fração já está na forma irredutível. O valor -5/2 não é inteiro (fração irredutível com denominador diferente de 1): pertence a ℚ e ℝ, mas não a ℕ, ℤ nem a 𝕀 (todo racional deixa de ser irracional).
+Pertence a: ℚ, ℝ
+Não pertence a: ℕ, ℤ, 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 2 
+Digite a fração no formato a/b (ex.: 3/4): 6/3
+
+Entrada: 6/3
+Tipo: fração
+Justificativa: Razão de dois inteiros com denominador diferente de zero é um número racional. Simplificando: 6/3 = 2. O valor é o inteiro 2 (positivo): pertence a ℕ, ℤ, ℚ e ℝ, e não é irracional.
+Pertence a: ℕ, ℤ, ℚ, ℝ
+Não pertence a: 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 3
+Digite o decimal (ex.: 0,75 ou dízima como 1,2(5)): 0,75
+
+Entrada: 0,75
+Tipo: decimal exato
+Justificativa: Decimal exato (finito) com 2 casa(s) decimal(is) equivale à fração 75/100, logo é racional. O valor 3/4 não é inteiro (fração irredutível com denominador diferente de 1): pertence a ℚ e ℝ, mas não a ℕ, ℤ nem a 𝕀 (todo racional deixa de ser irracional).
+Pertence a: ℚ, ℝ
+Não pertence a: ℕ, ℤ, 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 0,(3)
+Digite um número inteiro válido: 3
+Digite o decimal (ex.: 0,75 ou dízima como 1,2(5)): 0,(3)
+
+Entrada: 0,(3)
+Tipo: dízima periódica (parte não periódica: nenhuma; período: 3)
+Fração geratriz: 3/9 = 1/3
+Justificativa: Toda dízima periódica pode ser escrita como fração (a geratriz), logo é racional. Cálculo: (3 - 0) / 9 = 3/9. O valor 1/3 não é inteiro (fração irredutível com denominador diferente de 1): pertence a ℚ e ℝ, mas não a ℕ, ℤ nem a 𝕀 (todo racional deixa de ser irracional).
+Pertence a: ℚ, ℝ
+Não pertence a: ℕ, ℤ, 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 3
+Digite o decimal (ex.: 0,75 ou dízima como 1,2(5)): 2,(7)
+
+Entrada: 2,(7)
+Tipo: dízima periódica (parte não periódica: nenhuma; período: 7)
+Fração geratriz: 25/9
+Justificativa: Toda dízima periódica pode ser escrita como fração (a geratriz), logo é racional. Cálculo: (27 - 2) / 9 = 25/9. O valor 25/9 não é inteiro (fração irredutível com denominador diferente de 1): pertence a ℚ e ℝ, mas não a ℕ, ℤ nem a 𝕀 (todo racional deixa de ser irracional).
+Pertence a: ℚ, ℝ
+Não pertence a: ℕ, ℤ, 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 3
+Digite o decimal (ex.: 0,75 ou dízima como 1,2(5)): 1,2(5)
+
+Entrada: 1,2(5)
+Tipo: dízima periódica (parte não periódica: 2; período: 5)
+Fração geratriz: 113/90
+Justificativa: Toda dízima periódica pode ser escrita como fração (a geratriz), logo é racional. Cálculo: (125 - 12) / 90 = 113/90. O valor 113/90 não é inteiro (fração irredutível com denominador diferente de 1): pertence a ℚ e ℝ, mas não a ℕ, ℤ nem a 𝕀 (todo racional deixa de ser irracional).
+Pertence a: ℚ, ℝ
+Não pertence a: ℕ, ℤ, 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 3
+Digite o decimal (ex.: 0,75 ou dízima como 1,2(5)): 0,(9)
+
+Entrada: 0,(9)
+Tipo: dízima periódica (parte não periódica: nenhuma; período: 9)
+Fração geratriz: 9/9 = 1
+Justificativa: Toda dízima periódica pode ser escrita como fração (a geratriz), logo é racional. Cálculo: (9 - 0) / 9 = 9/9. O valor é o inteiro 1 (positivo): pertence a ℕ, ℤ, ℚ e ℝ, e não é irracional.
+Pertence a: ℕ, ℤ, ℚ, ℝ
+Não pertence a: 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 4
+Digite o número que está dentro da raiz (ex.: 2 para √2): 9
+
+Entrada: √9
+Tipo: raiz exata (√9 = 3)
+Justificativa: 9 = 3² (quadrado perfeito), logo √9 = 3. O valor é o inteiro 3 (positivo): pertence a ℕ, ℤ, ℚ e ℝ, e não é irracional.
+Pertence a: ℕ, ℤ, ℚ, ℝ
+Não pertence a: 𝕀
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 4
+Digite o número que está dentro da raiz (ex.: 2 para √2): 2
+
+Entrada: √2
+Tipo: raiz não exata
+Justificativa: 2 não é quadrado perfeito (está entre 1² = 1 e 2² = 4). A raiz quadrada de um inteiro que não é quadrado perfeito é irracional: não pode ser escrita como fração. Pertence a 𝕀 e ℝ, mas não a ℕ, ℤ nem ℚ.
+Pertence a: 𝕀, ℝ
+Não pertence a: ℕ, ℤ, ℚ
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 5
+Digite n (listar os primos de ℕ até n): 30
+Primos até 30 (quantidade: 10): [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 6
+Digite um número natural (maior ou igual a 1): 36
+Divisores de 36 (quantidade: 9): [1, 2, 3, 4, 6, 9, 12, 18, 36]
+
+--- MENU ---
+1 - Informar um número inteiro
+2 - Informar uma fração (formato a/b, ex.: 3/4)
+3 - Informar um decimal (exato ou dízima periódica, ex.: 0,75  1,2(5))
+4 - Informar uma raiz quadrada (ex.: 2 para √2)
+5 - Bônus: primos de ℕ até n (crivo de Eratóstenes)
+6 - Bônus: divisores de um número
+0 - Sair
+Escolha uma opção: 0
+Programa encerrado.
